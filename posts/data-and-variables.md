@@ -1,7 +1,7 @@
 ---
 title: 'Data and Variables'
 date: '2016-04-29'
-tags: '#data, #machine-learning'
+tags: ['data', 'machine-learning']
 ---
 
 What do we really mean by data?

@@ -3,6 +3,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import Link from 'next/link'
 
 export default function Post({ postData }) {
     return (
@@ -15,8 +16,12 @@ export default function Post({ postData }) {
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
-        <div className={utilStyles.lightText}>
-          {postData.tags.split(', ').join(' ')}
+        <div className={utilStyles.lightTags}>
+          {postData.tags.map(tag => (
+            <Link href="/posts/tag/[tag]" as={`/posts/tag/${tag}`}>
+              <a> {`#${tag}`} </a>
+            </Link>
+          ))}
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
@@ -27,6 +32,7 @@ export default function Post({ postData }) {
 
 export async function getStaticPaths() {
     const paths = getAllPostIds()
+    // console.log(paths);
     return {
       paths,
       fallback: false

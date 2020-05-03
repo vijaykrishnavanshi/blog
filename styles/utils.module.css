@@ -55,7 +55,13 @@
 
   .lightTags {
     color: #999;
-    margin: 0 1rem;
+    margin: 0 0.3rem;
+    text-decoration: none;
+  }
+
+  .lightTags > a {
+    color: #999;
+    text-decoration: none;
   }
   
   .subHeading {

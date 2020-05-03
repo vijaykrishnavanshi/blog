@@ -6,7 +6,7 @@ import Link from 'next/link'
 const name = 'Vijay Krishnavanshi'
 export const siteTitle = "Vijay's Blog"
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, tag }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -21,14 +21,18 @@ export default function Layout({ children, home }) {
         />
       </Head>
       <header className={styles.header}>
-        {home ? (
+        {(home || tag) ? (
           <>
-            <h2 className={utilStyles.headingXl}>Vijay's Blog</h2>
+            <Link href="/">
+              <h2 className={utilStyles.headingXl}>Vijay's Blog</h2>
+            </Link>
             <p className={utilStyles.subHeading}>Github: <a href="https://github.com/vijaykrishnavanshi">https://github.com/vijaykrishnavanshi</a></p>
           </>
         ) : (
           <>
-            <h2 className={utilStyles.headingXl}>Vijay's Blog</h2>
+            <Link href="/">
+              <h2 className={utilStyles.headingXl}>Vijay's Blog</h2>
+            </Link>
             {/* <p className={utilStyles.subHeading}>Github: <a href="https://github.com/vijaykrishnavanshi">https://github.com/vijaykrishnavanshi</a></p> */}
           </>
         )}
