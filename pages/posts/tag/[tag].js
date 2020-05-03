@@ -7,7 +7,7 @@ import Date from '../../../components/date'
 
 export default function TagHome({ allPostsData }) {
   return (
-    <Layout>
+    <Layout tag>
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -23,7 +23,11 @@ export default function TagHome({ allPostsData }) {
                 <Date dateString={date} />
               </small>
               <small className={utilStyles.lightTags}>
-                {tags.join(' ')}
+                {tags.map(tag => (
+                  <Link href="/posts/tag/[tag]" as={`/posts/tag/${tag}`}>
+                    <a>{`#${tag}`} </a>
+                  </Link>
+                ))}
               </small>
             </li>
           ))}

@@ -1,7 +1,7 @@
 ---
 title: 'Why do we believe strangers?'
 date: '2016-12-26'
-tags: ['#philosophy', '#psychology']
+tags: ['philosophy', 'psychology']
 ---
     "Absence of evidence is not evidence of absence!"
                             -- Carl Sagan, Astronomer

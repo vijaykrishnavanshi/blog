@@ -1,7 +1,7 @@
 ---
 title: 'What is Machine Learning?'
 date: '2016-04-23'
-tags: ['#machine-learning', '#beginner']
+tags: ['machine-learning', 'beginner']
 ---
  
 ** You :**  Ha Ha ! So what exactly is machine learning. 

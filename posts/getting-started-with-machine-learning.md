@@ -1,7 +1,7 @@
 ---
 title: 'Getting Started in Machine Learning?'
 date: '2016-04-27'
-tags: ['#machine-learning']
+tags: ['machine-learning']
 ---
 
 Machine Learning is one of the most intriguing field of computer science. You do not need a degree to learn and practice machine learning. In fact, you don’t need a degree if you want to explore research in machine learning. It's fun to learn.
