@@ -52,6 +52,11 @@
   .lightText {
     color: #999;
   }
+
+  .lightTags {
+    color: #999;
+    margin: 0 1rem;
+  }
   
   .subHeading {
     color: #666;

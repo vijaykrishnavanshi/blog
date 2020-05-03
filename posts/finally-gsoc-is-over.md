@@ -1,6 +1,7 @@
 ---
 title: 'Finally GSoC is over.'
 date: '2017-08-27'
+tags: '#GSoC'
 ---
 
 Finally GSoC is over. It was alot of ups and downs. I worked on Kopete, Instant Messaging Client. My project was about writing autotests for kopete and porting remaining parts of kopete to KDE Framework. 

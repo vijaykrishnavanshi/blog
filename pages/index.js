@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         {/* <h2 className={utilStyles.headingXl}>Vijay's Blog</h2>
         <p className={utilStyles.subHeading}>Github: <a href="https://github.com/vijaykrishnavanshi">https://github.com/vijaykrishnavanshi</a></p> */}
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, tags }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href="/posts/[id]" as={`/posts/${id}`}>
                 <a>{title}</a>
@@ -30,6 +30,9 @@ export default function Home({ allPostsData }) {
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
+              </small>
+              <small className={utilStyles.lightTags}>
+                {tags.split(', ').join(' ')}
               </small>
             </li>
           ))}

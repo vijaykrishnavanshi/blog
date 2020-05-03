@@ -15,6 +15,9 @@ export default function Post({ postData }) {
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
+        <div className={utilStyles.lightText}>
+          {postData.tags.split(', ').join(' ')}
+        </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
       </Layout>
