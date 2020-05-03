@@ -31,8 +31,13 @@ export default function Home({ allPostsData }) {
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              <tab></tab>
               <small className={utilStyles.lightTags}>
-                {tags.split(', ').join(' ')}
+              {tags.map(tag => (
+                <Link href="/posts/tag/[tag]" as={`/posts/tag/${tag}`}>
+                  <a> {tag} </a>
+                </Link>
+              ))}
               </small>
             </li>
           ))}

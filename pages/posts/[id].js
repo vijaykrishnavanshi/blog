@@ -16,7 +16,7 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
         <div className={utilStyles.lightText}>
-          {postData.tags.split(', ').join(' ')}
+          {postData.tags.join(' ')}
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
@@ -27,6 +27,7 @@ export default function Post({ postData }) {
 
 export async function getStaticPaths() {
     const paths = getAllPostIds()
+    console.log(paths);
     return {
       paths,
       fallback: false
