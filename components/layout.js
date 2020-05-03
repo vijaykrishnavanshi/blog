@@ -17,9 +17,7 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content={`https://avatars2.githubusercontent.com/u/8918307?s=460&u=d458aea884a1f811bd34ee8573611802b2243502&v=4`}
         />
       </Head>
       <header className={styles.header}>
