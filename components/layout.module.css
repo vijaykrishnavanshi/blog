@@ -1,7 +1,7 @@
 .container {
     display: flex;
     max-width: 40rem;
-    padding: 0 1rem 1rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     margin: 0rem auto 6rem;
     /* background-color: white; */
     flex-flow: column;
