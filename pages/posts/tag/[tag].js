@@ -19,10 +19,10 @@ export default function TagHome({ allPostsData }) {
                 <a>{title}</a>
               </Link>
               <br />
-              <small className={utilStyles.lightText}>
+              <small className={utilStyles.lightText} key={`date_${id}`}>
                 <Date dateString={date} />
               </small>
-              <small className={utilStyles.lightTags}>
+              <small className={utilStyles.lightTags} key={`tags_${id}`}>
                 {tags.map(tag => (
                   <Link href="/posts/tag/[tag]" as={`/posts/tag/${tag}`}>
                     <a>{`#${tag}`} </a>
