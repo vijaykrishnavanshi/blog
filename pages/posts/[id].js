@@ -17,8 +17,8 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
         <div className={utilStyles.lightTags}>
-          {postData.tags.map(tag => (
-            <Link href="/posts/tag/[tag]" as={`/posts/tag/${tag}`}>
+          {postData.tags.map((tag, index) => (
+            <Link  href="/posts/tag/[tag]" as={`/posts/tag/${tag}`} key={index}>
               <a> {`#${tag}`} </a>
             </Link>
           ))}
