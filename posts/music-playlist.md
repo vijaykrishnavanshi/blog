@@ -4,7 +4,7 @@ date: '2020-07-19'
 tags: ['music', 'playlists']
 ---
 
-Being a music enthusiast, I am creating this running blog of the playlist that I have curated. Just something I want to share.
+Being a music enthusiast, I am creating this running blog of the playlist that I have curated. Just something I want to share. Idea of word based playlist is that certain words invoke certain emotions and state of mind. I just want to see if this holds true for other people as well. Please also share your feedback on this, I am happy to discuss more about this and explore it further.
 
 ## Word Based Platlist
 
