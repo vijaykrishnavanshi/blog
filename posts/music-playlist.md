@@ -12,5 +12,7 @@ Being a music enthusiast, I am creating this running blog of the playlist that I
 - Mayhem - https://open.spotify.com/playlist/16h1HLIXpZO4dIDU2UKBw5?si=qsYp0H32RSW1Gxt1t9SmiA
 - Desire - https://open.spotify.com/playlist/1aUTqB79Ue5o2lPYqAwvpU?si=DRPTh6m9RrKfc5eeIpV-wg
 - Search - https://open.spotify.com/playlist/4M6GguTPY0SqiUlBDsgB7U?si=j20Tjmy1QxOeAeFwuHY7TA
+- Dusk - https://open.spotify.com/playlist/1POxCAajuySpYkn0xLLp9z?si=e0NxOMFhSoyJ5AaDE5tfRg
+- Close - https://open.spotify.com/playlist/0NvqtGN8nlCEtrAWsAytye?si=yUagmsV8Qh6_LDrTM1xoDg
 
 Share your fav playlists with me I am always up for new and awesome songs. 
